@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="range-hrm-5(failed)">
+    <classes>
+      <class name="com.orangehrmlive.demo.testsuite.UserTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="adminShouldAddUserSuccessFully"/>
+          <include name="inIt"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.demo.testsuite.UserTest -->
+    </classes>
+  </test> <!-- range-hrm-5(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
